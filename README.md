@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [click here](https://your-solution-url.com)
+- Solution URL: [click here](https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-css-flexbox-dK3MNKmVI3)
 - Live Site URL: [click here](https://shubham-cj.github.io/Product-preview-card-component/)
 
 ## My process
