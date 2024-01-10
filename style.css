@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;    /* dicleration */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+}
+.img1 {
+    display: block;
+}
+.img2 {
+    display: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    background: hsl(30, 38%, 92%);
+    min-height: 100vh;
+}
+
+main {
+    background: #fff;
+    height: 555px;
+    width: 340px;
+    margin: auto auto;
+    border-radius: 10px;
+}
+main div {
+    padding: 22px;
+}
+main div h3 {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: lighter;
+    margin: 0 5px; 
+}
+main div h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: Fraunces;
+    margin: 10px 0;
+    line-height: 30px;
+}
+main div p {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.price-section {
+    margin: 10px 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.price {
+    color: hsl(158, 36%, 37%);
+}
+.cancled-price {
+    align-self: center;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button img {
+    width: 15px;
+}
+button {
+    background: hsl(158, 36%, 37%);
+    padding: 12px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+}
+button:hover {
+    background: hsl(159, 36%, 18%);
+}
+
+@media (min-width: 768px) {
+    .img1 {
+        display: none;
+    }
+    .img2 {
+        display: block;
+        height: 370px;
+    }
+    img {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 370px;
+        width: 500px;
+        margin: auto auto;
+        border-radius: 10px;
+    }
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    justify-content: flex-end;
+    margin-bottom: 2px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
